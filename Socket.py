@@ -52,4 +52,7 @@ def get_user_message(text):
 
   @text is the whole text
   """
-  pass
+  text = text.strip(" \r\n")
+  user = text[1: text.index("!",1)]
+  message = text[text.index(":",1) + 1:]
+  return [user, message]
