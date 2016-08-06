@@ -1,7 +1,7 @@
 
 HOST = "irc.gitter.im"
 USER = "VikrantSingh13"
-PASS = "69d459fd056e8264f2b86ef0509d539f656a91da"
+PASS = ""
 PORT = 6697
 ROOM = "FreeCodeCamp/FreeCodeCamp"
 
